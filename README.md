@@ -4,7 +4,7 @@ This project aims to provide an extension to adding __Permission-based__ authori
 
 ## DESCRIPTION
 
-The ASP.NET Identity system is designed to replace the previous ASP.NET Membership and Simple Membership systems. It includes profile support, OAuth integration, works with OWIN, and is included with the ASP.NET templates. Despite it has a lot of flexibility to change the authentication workflow and adding custom behaviour, it would be nice to have a encapsulated and completed solution to Permission-based authentication. Using this extension you can define a `Permission` that many Roles can access to and stored in the `RolePermission` object. So there is a many-to-many relation between the `Permission` and `Role` objects and also database tables. 
+The ASP.NET Identity system is designed to replace the previous ASP.NET Membership and Simple Membership systems. It includes profile support, OAuth integration, works with OWIN, and is included with the ASP.NET templates. Despite a lot of flexibility to change the authentication workflow and adding custom behaviour, it would be nice to have an encapsulated and completely ready-to-use solution for Permission-based authentication. Using this extension you can define a `Permission` that many Roles can access to and stored in the `RolePermission` object. So there is a many-to-many relation between the `Permission` and `Role` objects and also database tables. 
 
 ### Solution Hierarchy:
 
